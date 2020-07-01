@@ -1,0 +1,18 @@
+https://www.npmjs.com/package/ng-animate
+https://github.com/jiayihu/ng-animate/blob/master/src/app/app.component.ts
+
+// animation module
+        import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+    ...
+@NgModule({
+    imports: [...
+        BrowserAnimationsModule,
+        ...
+      ],
+
+Scroll Animation
+AOS library
+
+https://www.npmjs.com/package/aos
+https://stackoverflow.com/questions/47253364/integrate-aos-library-with-angular4-application
+https://michalsnik.github.io/aos/

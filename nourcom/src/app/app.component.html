@@ -1,0 +1,190 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="site-wrap">
+
+   <!--  <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div> -->
+  
+  <header class="site-navbar py-3" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        
+      <!--   <div class="col-12 col-md-10 col-xl-2 logo">      --> 
+        <div class="col-11 col-xl-2">
+          <h2  class="mb-0"><a routerLink="/" class="text-white h2 mb-0">
+            <img src="assets/logo3.png" alt="">
+          </a></h2> 
+        </div>
+       <!--  <div class="col-12 col-md-10"> -->
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation" role="navigation" id="nav">
+           <!--  <select #langSelect (change)="translate.use(langSelect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang" 
+              [selected]="lang === translate.currentLang">{{ lang }}</option>
+            </select> -->
+            <ul class="site-menu">
+              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                true}"><a routerLink="/">  {{ 'nav.link1' | translate }}   </a></li>
+              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                true}"><a routerLink="/About"> {{ 'nav.link2' | translate }}</a></li>
+              <li class="has-children" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                true}">
+                <a routerLink="/Produits"> {{ 'nav.link3' | translate }}</a>
+                <ul class="dropdown">
+                  <li><a routerLink="/Agroalimentaire">{{ 'nav.link3.1' | translate }}</a></li>
+                  <li><a routerLink="/Construction">{{ 'nav.link3.2' | translate }}</a></li>
+                  <li><a routerLink="/Sanitaire">{{ 'nav.link3.3' | translate }}</a></li>
+                </ul> 
+              </li>
+              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                true}"><a routerLink="/Contact"> {{ 'nav.link4' | translate }}</a></li>
+              <li  (click)="changeEN()" style="cursor: pointer">
+                  <img src="assets/united-kingdom.png" height="25px" width="25px" style="border-radius: 30%;"alt=""> 
+                  <a> &nbsp; EN</a>
+              </li>
+              <li>
+                <span style="border-left:1px solid white; height: 25px;"></span>
+              </li>
+              <li (click)="changeFR()" style="cursor: pointer">
+                  <img src="assets/france.png" height="30px" width="30px" alt="">
+                  <a > &nbsp; FR </a>
+              </li>
+              <li>
+                <span style="border-left:1px solid white; height: 25px;"></span>
+              </li>
+              <li (click)="changeAR()" style="cursor: pointer">
+                  <img src="assets/tunisia.png" height="30px" width="30px" alt="">
+                  <a > &nbsp; AR </a>
+              </li>
+            </ul>
+            
+          </nav>
+        </div>      
+
+     <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3 site-menu-toggle  text-white " 
+        style="position: relative; top: 3px;cursor: pointer;" 
+        data-toggle="collapse" data-target="#nav" aria-controls="nav"
+        aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()"
+        >
+        <span class="icon-menu h3"></span>
+      </div>
+    
+      <div class="collapse navbar-collapse mobile-menu
+       d-inline-block d-xl-none ml-md-0 mr-auto" *ngIf="navbarOpen" id="nav" [ngClass]="{ 'show': navbarOpen }"
+      >
+ <!--      <div class="mobile-menu-header">
+          <ul style="float: right;padding-left: 0%">
+              <li (click)="close()" style="cursor: pointer;" >
+                  <span class="icon-close2" 
+                  ></span>
+              </li>
+          </ul>
+           
+      </div> -->
+     
+        <div class="nav-wrap mobile-menu-body ">
+           
+            
+            <ul>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                  true}" (click)="close()"><a routerLink="/">  {{ 'nav.link1' | translate }}   </a></li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                  true}" (click)="close()"><a routerLink="/About"> {{ 'nav.link2' | translate }}</a></li>
+                <li class="has-children" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                  true}" (click)="close()">
+                  <a routerLink="/Produits"> {{ 'nav.link3' | translate }}</a>
+                  <ul class="dropdown" (click)="close()">
+                    <li><a routerLink="/Agroalimentaire">{{ 'nav.link3.1' | translate }}</a></li>
+                    <li><a routerLink="/Construction">{{ 'nav.link3.2' | translate }}</a></li>
+                    <li><a routerLink="/Sanitaire">{{ 'nav.link3.3' | translate }}</a></li>
+                  </ul> 
+                </li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                  true}" (click)="close()"><a routerLink="/Contact"> {{ 'nav.link4' | translate }}</a></li>
+                <li  (click)="changeEN()" style="cursor: pointer">                 
+                    <img src="assets/united-kingdom.png" height="25px" width="25px" style="border-radius: 30%;"alt=""> 
+                    &nbsp; EN
+                </li>
+                <li>
+                  <span style="border-left:1px solid white; height: 25px;"></span>
+                </li>
+                <li (click)="changeFR()" style="cursor: pointer">
+                    <img src="assets/france.png" height="30px" width="30px" alt="">
+                    &nbsp; FR
+                </li>
+                <li>
+                  <span style="border-left:1px solid white; height: 25px;"></span>
+                </li>
+                <li (click)="changeAR()" style="cursor: pointer">
+                    <img src="assets/tunisia.png" height="30px" width="30px" alt="">
+                    &nbsp; AR
+                </li> 
+              </ul>
+        </div>  
+        
+      </div>
+        </div>
+
+      </div>
+
+  </header>
+</div>
+   
+<router-outlet></router-outlet>
+
+<!-- footer part start-->
+<footer class="footer-area">
+  <div class="container">
+      <div class="row justify-content-between" >
+          <div class="col-lg-3 col-sm-6" >
+              <div class="single-footer-widget footer_1">
+                  <h4>{{ 'propos' | translate }} </h4>
+                  <p>{{ 'title' | translate }} </p>
+                  
+                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+              <div class="single-footer-widget footer_2">
+                  <h4> {{ 'nav.link3' | translate }}</h4>
+                  
+                      <p><a routerLink="/Agroalimentaire"> {{ 'nav.link3.1' | translate }}</a></p>
+                      <p><a routerLink="/Construction"> {{ 'nav.link3.2' | translate }}</a></p>
+                      <p><a routerLink="/Sanitaire"> {{ 'nav.link3.3' | translate }}</a></p>
+                 
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+              <div class="single-footer-widget footer_2">
+                  <h4>{{ 'contact.title' | translate }}</h4>
+                  <div class="contact_info">
+                      <p><span>{{ 'adresse' | translate }}  :</span> {{ 'contact.adresse' | translate }}</p>
+                      <p><span>{{ 'contact.num' | translate }} :</span> 00216 54 440 426 </p>
+                      <p><span>{{ 'contact.email' | translate }} :</span> nourcominternational@gmail.com </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright_part">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <p class="footer-text m-0">
+                   Made by Jlassi Mahrzia | jlassimahrzia111@gmail.com
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- footer part end-->

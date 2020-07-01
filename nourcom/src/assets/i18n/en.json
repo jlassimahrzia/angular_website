@@ -1,0 +1,125 @@
+{
+    "nav": {
+      "link1": "Home",
+      "link2": "About",
+      "link3": "Products",
+      "link3.1": "Agroalimentary",
+      "link3.2": "Construction Materials",
+      "link3.3": "Sanitary Items",
+      "link4": "Contact"
+    },
+    "title": "Tunisian Company of International Trade",
+    "transport":{
+        "title" : "WHAT WE OFFER!",
+        "description" : "3 Means of transport"
+    },
+    "aerien":{
+        "title" : "Air freight",
+        "description" : "Immediate assistance for your air freight shipments, freight securing, processing from or to any airport."
+    },
+    "maritime":{
+        "title" : "Sea freight",
+        "description" : "International maritime transport, we accompany you in your import and export procedures Processing from or to all major ports."
+    },
+    "terrestre":{
+        "title" : "Ground Shipping",
+        "description" : "Our company deals with shipments by land, national and international services."
+    },
+    "produit":{
+        "title" : "products",
+        "description" : "We offer a wide range of products"
+    },
+    "agroalimentaire":{
+        "title" : "Agroalimentary",
+        "description" : "Food Dough,Couscous, Flour, Canned Tomato, Harissa, Cake, Biscuits, Juice, Salt , Chickpea...",
+        "produit1":"Flour",
+        "produit2":"Canned Tomato",
+        "produit3":"Food Dough",
+        "produit4":"Olive Oil",
+        "produit5":"Juice",
+        "produit6":"Harissa",
+        "produit7":"Couscous",
+        "produit8":"Biscuits",
+        "produit9":"Cake",
+        "produit10":"Unpeeled Beans",
+        "produit11":"Beans",
+        "produit12":"Chickpea",
+        "produit13":"Rosemary",
+        "produit14":"Bay leaf"
+    },
+    "construction":{
+        "title" : "Construction Materials",
+        "description" : "White cement, Cement, Paint, Tile, Plaster ...",
+        "produit1":"White cement",
+        "produit2":"Cement",
+        "produit3":"Paint",
+        "produit4":"Tile",
+        "produit5":"Plaster"
+    },
+    "sanitaire":{
+        "title" : "Sanitary Items",
+        "description" : "Bathroom basin, Washbasin, Toilet, Bath, kitchen sink ...",
+        "produit1":"Bathroom basin",
+        "produit2":"Washbasin",
+        "produit3":"Toilet",
+        "produit4":"kitchen sink"
+    },
+    "contact":{
+        "title" : "Contact Us" ,
+        "appel":"Call directly",
+        "bureau":"Office",
+        "heure":"Work hour",
+        "descriptionHeure1": "Monday - Tuesday  / 8.00 - 17.00",
+        "descriptionHeure2": "Friday - Saturday / 8.00 - 12.00",
+        "country":"TUNISIA",
+        "num":"Number",
+        "directeur":"Commercial Director",
+        "contact":"Contact",
+        "desc":"For more details contact Mr. Khalil abdennabi the commercial director of the company. He is at your disposal at any time to meet your needs.",
+        "adresse":"BIZERTE , Zouaouine 7024",
+        "email":"Email",
+        "msg":"Message"
+    },
+    "propos":"About Us",
+    "adresse":"Adress",
+    "about":{
+        "p1" : "is an international trading company, based in Tunisia.",
+        "p2":"puts at your disposal all his expertise through a young and competent team to perform:",
+        "li1":"Reliable product sourcing",
+        "li2":"An optimal negotiation which tends towards the interest of our customers",
+        "li3":"Permanent monitoring of orders",
+        "p3":"We offer all types of products in different fields delivered to the destination of your choice.",
+        "p4":"We offer 3 means of delivery Air Freight, Sea Freight and Ground Shipping."
+    },
+    "service1":{
+        "title":"The distribution",
+        "description1":"NOURCOM is a Tunisian company import-export and international representation, we ensure the distribution of different items for the daily use of the consumer.",
+        "description2":"the satisfaction of our customers is our priority in offering them good products with an excellent value for money, this by treating our business with integrity and efficiency."
+    },
+    "service2":{
+        "title":"The negociation",
+        "description1":"Commercial negotiation is above all a communication process where the partiesin the presence seek agreement through concessions to achieve a common goal:",
+        "description2":"buy for one of the parties and sell for the other party."
+    },
+    "service3":{
+        "title":"Brokerage",
+        "description1":"Brokerage is a business intermediary activity consisting of bringing together the seller and the buyer.",
+        "description2":"defines itself among others as a trusted commercial broker and business provider who engages in an activity of intermediary in transactions of sale or purchase of goods or provision of services.",
+        "description3":"It is our mission to enable the parties concerned to agree on the details of the proposed transaction, which is intended to finalize the rapprochement of the two parties with a view to concluding the necessary contracts."
+    },
+    "descriptionProduit":"We offer all types of products in different fields delivered to the destination of your choice.",
+    "form":{
+        "nom":"Firstname",
+        "prenom":"Lastname",
+        "sujet":"Subject",
+        "button":"Send",
+        "err1":"You must enter your firstname ",
+        "err2":"You must enter your Lastname ",
+        "err3":"You must enter your email adress",
+        "err4":"Email wrong format",
+        "err5":"You must specify the subject of your mail",
+        "err6":"You must write your message",
+        "res":"Email sended successfully"
+    }
+    
+}

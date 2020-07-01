@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~leaflet.fullscreen/Control.FullScreen.css';
+@import 'bootstrap/functions';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+/* Base */
+@import "scss/site-base"; 
+/* Navbar */
+@import "scss/site-navbar";
+/* Blocks */
+@import "scss/site-blocks";
+@import "css/style";

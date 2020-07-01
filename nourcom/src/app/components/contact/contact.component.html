@@ -1,0 +1,139 @@
+<div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(assets/hero_bg_1.jpg);background-position: 50% -25px;" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row align-items-center justify-content-center text-center">
+
+        <div class="col-md-8" [@fadeInDown]="fadeInDown">
+          <h1 class="text-white font-weight-light text-uppercase font-weight-bold">{{ 'contact.title' | translate }}</h1>
+        </div>
+      </div>
+    </div>
+</div>  
+
+   <div class="site-section bg-light"  data-aos="fade-down" data-aos-once="true" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 mb-5">
+
+              
+            <form [formGroup]="this.formContact" (ngSubmit)="sendMail()" role="form" class="p-5 bg-white">
+                <div class="alert alert-primary" role="alert" *ngIf="send">
+                    <button type="button" class="close" aria-label="Close" (click)="closeAlert()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{ 'form.res' | translate }}
+                </div>
+  
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">{{ 'form.nom' | translate }}</label>
+                  <input type="text" id="firstname" formControlName="firstname" class="form-control" autocomplete="off">
+                  <span class="mb-4" style="color:red" *ngIf="formContact.get('firstname').dirty&&formContact.get('firstname').hasError('required')">
+                      {{ 'form.err1' | translate }}
+                  </span>
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">{{ 'form.prenom' | translate }}</label>
+                  <input type="text" id="lastname" formControlName="lastname" class="form-control" autocomplete="off">
+                  <span class="mb-4" style="color:red" *ngIf="formContact.get('lastname').dirty&&formContact.get('lastname').hasError('required')">
+                      {{ 'form.err2' | translate }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">{{ 'contact.email' | translate }}</label> 
+                  <input type="email" id="email" formControlName="email" class="form-control" autocomplete="off">
+                  <span class="mb-4" style="color:red" *ngIf="formContact.get('email').dirty&&formContact.get('email').hasError('required')">
+                      {{ 'form.err3' | translate }}
+                  </span>
+                  <span class="mb-4" style="color:red" *ngIf="formContact.get('email').hasError('email')">
+                      {{ 'form.err4' | translate }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">{{ 'form.sujet' | translate }}</label> 
+                  <input class="mb-4" type="subject" id="subject" 
+                  formControlName="subject" class="form-control" autocomplete="off">
+                  <span  style="color:red" *ngIf="formContact.get('subject').dirty&&formContact.get('subject').hasError('required')">
+                      {{ 'form.err5' | translate }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">{{ 'contact.msg' | translate }}</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" 
+                  formControlName="message"
+                  placeholder="Ecrire vos notes message  ou questions ..."></textarea>
+                  <span class="mb-4" style="color:red" *ngIf="formContact.get('message').dirty&&formContact.get('message').hasError('required')">
+                      {{ 'form.err6' | translate }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="{{ 'form.button' | translate }}" [disabled]="!formContact.valid"
+                  class="btn btn-primary py-2 px-4 text-white" >
+                </div>
+              </div>
+  
+            </form>
+          </div>
+          
+          <div class="col-md-5">
+            
+            <div class="p-4 mb-3 bg-white">
+              <p class="mb-0 font-weight-bold">{{ 'adresse' | translate }}</p>
+              <p class="mb-4">{{ 'contact.adresse' | translate }}</p>
+
+              <p class="mb-0 font-weight-bold">{{ 'contact.num' | translate }}</p>
+              <p class="mb-4">00216 54 440 426 </p>
+
+              <p class="mb-0 font-weight-bold">{{ 'contact.email' | translate }}</p>
+              <p class="mb-0">nourcominternational@gmail.com </p>
+
+            </div>
+
+            <div class="p-4 mb-3 bg-white">
+             <!--    <div style="height: 350px;"
+                        leaflet 
+                        [leafletOptions]="options"
+                        >
+                </div>    -->      
+                <div class="testimonial">
+                    <figure class="mb-4">
+                      <img src="assets/khalil.jpg" alt="Image" class="img-fluid mb-3">
+                      <p>Khalil abdennabi
+                        <br>
+                        {{ 'contact.directeur' | translate }}
+                      </p>
+                    
+                    </figure>
+                    <blockquote>
+                      <p>&ldquo;
+                          {{ 'contact.desc' | translate }} &rdquo;</p>
+                    </blockquote>
+                    <p><span class="icon-whatsapp"></span> &nbsp; Whatsapp : 00216 27 661 881
+                    <br>
+                       &nbsp; {{ 'contact.num' | translate }} : 00216 54 440 426
+                    </p>
+
+                    <p> </p>
+                  </div>
+
+            </div>
+           
+
+          </div>
+        </div>
+      </div>
+    </div>

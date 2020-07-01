@@ -1,0 +1,9 @@
+leaflet Angular Map
+
+https://asymmetrik.com/ngx-leaflet-tutorial-angular-cli/
+https://github.com/Asymmetrik/ngx-leaflet-tutorial-plugins/tree/master/Leaflet.Fullscreen
+https://github.com/Asymmetrik/ngx-leaflet
+https://leafletjs.com/?fbclid=IwAR2__hg52bI0Yo5IEnUwI85pzmlk2HYTqS2nHLvz7rKZqnDiIjJPUnmKALg
+
+with search
+https://codepen.io/christippett/pen/dojgPb

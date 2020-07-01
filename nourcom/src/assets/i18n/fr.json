@@ -1,0 +1,125 @@
+{
+    "nav": {
+      "link1": "Accueil",
+      "link2": "Présentation",
+      "link3": "Produits",
+      "link3.1": "Agroalimentaire",
+      "link3.2": "Matériaux de Construction ",
+      "link3.3": "Articles Sanitaires",
+      "link4": "Contact"
+    },
+    "title": "Société Tunisienne De Commerce International",
+    "transport":{
+        "title" : "CE QUE NOUS OFFRONS !",
+        "description" : "3 Moyens de transport"
+    },
+    "aerien":{
+        "title" : "Fret Aérien",
+        "description" : "Une assistance immédiate pour vos envois de fret aérien , sécurisation du fret, traitement depuis ou vers tous aéroports."
+    },
+    "maritime":{
+        "title" : "Fret Maritime",
+        "description" : "Transports internationaux maritime , nous vous accompagne dans vos démarches d’importation et d’exportation Traitement depuis ou vers tous les ports principaux."
+    },
+    "terrestre":{
+        "title" : "Expédition Terrestre",
+        "description" : "Notre entreprise s'occupe d'expéditions par voie terrestre , Services nationaux et internationaux."
+    },
+    "produit":{
+        "title" : "produits",
+        "description" : "Nous offrons une large éventail de produits"
+    },
+    "agroalimentaire":{
+        "title" : "Agroalimentaire",
+        "description" : "Pate alimentaire , Couscous , Farine , Tomate conservé , Harissa , Gâteau , Biscuits , Jus , sel , les haricots secs pelés et non pelés , Pois chiche , romarin ...",
+        "produit1":"Farine",
+        "produit2":"Tomate conservé",
+        "produit3":"Pate alimentaire",
+        "produit4":"Huile d'olive",
+        "produit5":"Jus",
+        "produit6":"Harissa",
+        "produit7":"Couscous",
+        "produit8":"Biscuits",
+        "produit9":"Cake",
+        "produit10":"les haricots secs non pelés",
+        "produit11":"les haricots secs pelés",
+        "produit12":"Pois chiche",
+        "produit13":"Romarin",
+        "produit14":"Rand ( Laurus nobilis )"
+    },
+    "construction":{
+        "title" : "Matériaux de Construction",
+        "description" : "Ciment blanc , Ciment , Peinture , Carrelage , Plaster ...",
+        "produit1":"Ciment blanc",
+        "produit2":"Ciment",
+        "produit3":"Peinture",
+        "produit4":"Carrelage",
+        "produit5":"Plaster"
+    },
+    "sanitaire":{
+        "title" : "Articles Sanitaires",
+        "description" : "Bassin de salle de bain , Lavabos , Toilet , Baignoir , Evier de cuisine ...",
+        "produit1":"Baignoir",
+        "produit2":"Bassin de salle de bain / Lavabos",
+        "produit3":"Toilet",
+        "produit4":"Evier de cuisine"
+    },
+    "contact":{
+        "title" : "Contactez Nous" ,
+        "appel":"Appeler directement",
+        "bureau":"Bureau",
+        "heure":"Heure de travail",
+        "descriptionHeure1": "Lundi - Jeudi / 8.00 - 17.00",
+        "descriptionHeure2": "Vendredi - Samedi / 8.00 - 12.00",
+        "country":"TUNISIE",
+        "num":"Numero",
+        "directeur":"Directeur Commerciale",
+        "contact":"Contacter",
+        "desc":" Pour plus de détails contactez M. Khalil abdennabi le directeur commerciale de la société. Il est à votre disposition à tout moment répondé à vos besoins.   ",
+        "adresse":"BIZERTE , Zouaouine 7024",
+        "email":"Email",
+        "msg":"Message"
+    },
+    "propos":"A propos",
+    "adresse":"Adresse",
+    "about":{
+        "p1" : "est une société de commerce international, basée en Tunisie.",
+        "p2":"met à votre disposition tout son savoir faire à travers une équipe jeune et compétente pour effectuer :",
+        "li1":"Un sourcing fiable des produits",
+        "li2":"Une négociation optimale qui tend vers l’intérêt de nos clients",
+        "li3":"Un suivi permanent des commandes",
+        "p3":"Nous proposons tous types de produits dans différents domaines livrés à la destination de votre choix.  ",
+        "p4":"Nous offrons 3 moyens de livraison Fret Aérien , Fret Maritime et Expédition Terrestre."
+    },
+    "service1":{
+        "title":"La distribution",
+        "description1":"NOURCOM est une société Tunisienne d’import-export et de représentation internationale, nous assurons la distribution des différents articles pour l’usage quotidien du consommateur.",
+        "description2":"la satisfaction de nos clients est notre priorité en leurs offrants de bons produits avec un excellent rapport qualité prix, ceci en traitant nos affaires avec intégrité et efficacité."
+    },
+    "service2":{
+        "title":"La négociation",
+        "description1":"La négociation commerciale est avant tout une démarche de communication où les parties  en présence recherchent l’entente par des concessions  mutuelles pour atteindre un but commun :",
+        "description2":"acheter pour l’une des parties et vendre pour l’autre partie."
+    },
+    "service3":{
+        "title":"Le courtage",
+        "description1":"Le courtage est une activité d’intermédiaire de commerce consistant à rapprocher vendeur et acheteur.",
+        "description2":" NOURCOM se définit entre autre comme courtier commerciale de confiance et apporteur d’affaires qui se livre à une activité d’intermédiaire dans des opérations de vente ou d’achat de biens ou de prestation de services.",
+        "description3":"On a pour mission de permettre aux parties concernés de se mettre d’accord sur les modalités de l’opération envisagée, qui a pour but de finaliser le rapprochement des deux parties en vue de conclure les contrats nécessaires."
+    },
+    "descriptionProduit":"Nous proposons tous types de produits dans différents domaines livrés à la destination de votre choix.",
+    "form":{
+        "nom":"Nom",
+        "prenom":"Prénom",
+        "sujet":"Sujet",
+        "button":"envoyer",
+        "err1":"Vous devez entrer votre nom ",
+        "err2":"Vous devez entrer votre prénom",
+        "err3":"Vous devez écrire votre adresse email",
+        "err4":"email au mauvais format",
+        "err5":"Vous devez spécifier le sujet de votre mail",
+        "err6":"Vous devez écrire votre message",
+        "res":"Email envoyé avec succès"
+    }
+}
+  

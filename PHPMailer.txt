@@ -1,0 +1,5 @@
+https://github.com/PHPMailer/PHPMailer
+
+https://alexwebdevelop.com/phpmailer-tutorial/
+
+Activé Accès moins sécurisé des applications gmail
